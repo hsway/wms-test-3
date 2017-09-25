@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a2b584c6a309d78b7c3dc5f24bc0274",
-    "content-hash": "a9a6be2b1b22bd5a6d7411dc0c977f1e",
+    "hash": "04026e3b11c2c4fcfeb883cd8a217e34",
+    "content-hash": "01d36b72a1c59585d3d695ea9aeeeeb3",
     "packages": [
         {
             "name": "OCLC/Auth",
@@ -1594,30 +1594,25 @@
         },
         {
             "name": "php-vcr/phpunit-testlistener-vcr",
-            "version": "3.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-vcr/phpunit-testlistener-vcr.git",
-                "reference": "993cfd37fe7f9b7c40c3f740b6168ef07093c1d7"
+                "reference": "392d7e11bfe30d7c376ba2bc25d3f372bcea98cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-vcr/phpunit-testlistener-vcr/zipball/993cfd37fe7f9b7c40c3f740b6168ef07093c1d7",
-                "reference": "993cfd37fe7f9b7c40c3f740b6168ef07093c1d7",
+                "url": "https://api.github.com/repos/php-vcr/phpunit-testlistener-vcr/zipball/392d7e11bfe30d7c376ba2bc25d3f372bcea98cb",
+                "reference": "392d7e11bfe30d7c376ba2bc25d3f372bcea98cb",
                 "shasum": ""
             },
             "require": {
-                "php-vcr/php-vcr": "^1.3"
+                "php-vcr/php-vcr": "^1.1.8"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.2"
+                "phpunit/phpunit": "^4.8|^5.0"
             },
             "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "VCR\\PHPUnit\\TestListener\\": "src/"
-                }
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -1629,7 +1624,7 @@
                 }
             ],
             "description": "Integrates PHPUnit with PHP-VCR.",
-            "time": "2017-08-08 15:46:38"
+            "time": "2016-12-19 10:10:57"
         },
         {
             "name": "phpdocumentor/reflection-common",
